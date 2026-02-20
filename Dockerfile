@@ -4,5 +4,5 @@ COPY . /app
 RUN pip install flask
 RUN pip install -r requirements.txt
 EXPOSE 8080
-ENTRYPOINT ["python"]
+
 CMD ["python", "app.py"]
